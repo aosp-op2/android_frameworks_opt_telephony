@@ -1394,13 +1394,6 @@ public class ImsPhoneCallTracker extends CallTracker implements ImsPullCall {
 
             case ImsReasonInfo.CODE_DATA_LIMIT_REACHED:
                 return DisconnectCause.DATA_LIMIT_REACHED;
-
-            case ImsReasonInfo.CODE_EMERGENCY_TEMP_FAILURE:
-                return DisconnectCause.EMERGENCY_TEMP_FAILURE;
-
-            case ImsReasonInfo.CODE_EMERGENCY_PERM_FAILURE:
-                return DisconnectCause.EMERGENCY_PERM_FAILURE;
-
             default:
         }
 
